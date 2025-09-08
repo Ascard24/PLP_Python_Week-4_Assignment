@@ -18,8 +18,8 @@ try:
         print("File content:\n", content)
 
 except FileNotFoundError:
-    print("❌ Error: The file does not exist.")
+    print("Error: The file does not exist.")
 except PermissionError:
-    print("❌ Error: You don’t have permission to read this file.")
+    print("Error: You don’t have permission to read this file.")
 except Exception as e:
-    print("❌ An unexpected error occurred:", e)
+    print("An unexpected error occurred:", e)
